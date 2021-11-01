@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,52 +13,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginFormController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ВКонтакте" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFV-DK-2RH">
-                                <rect key="frame" x="159" y="134" width="110" height="27.666666666666657"/>
+                                <rect key="frame" x="152" y="284" width="110" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" systemColor="systemGray6Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя пользователя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jD-mT-p93">
-                                <rect key="frame" x="141" y="311.66666666666669" width="146" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wx0-11-CM7">
-                                <rect key="frame" x="184.66666666666666" y="386.66666666666669" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HST-VF-BtS">
-                                <rect key="frame" x="141" y="342.66666666666669" width="146" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="146" id="gwz-UU-2ZK"/>
-                                    <constraint firstAttribute="height" constant="34" id="mvP-mu-rKM"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email или телефон" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HST-VF-BtS">
+                                <rect key="frame" x="20" y="371.5" width="374" height="34"/>
                                 <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBz-by-5lP">
-                                <rect key="frame" x="141" y="510" width="146" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBz-by-5lP">
+                                <rect key="frame" x="20" y="449.5" width="374" height="31"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Войти">
+                                <buttonConfiguration key="configuration" style="gray" title="Войти">
                                     <color key="baseForegroundColor" systemColor="systemGray6Color"/>
                                 </buttonConfiguration>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Пароль" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QY1-gD-KCm">
-                                <rect key="frame" x="141" y="417.66666666666669" width="146" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="74U-U7-xeY"/>
-                                    <constraint firstAttribute="width" constant="146" id="Fd3-IR-myn"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="405.5" width="374" height="34"/>
                                 <color key="textColor" systemColor="systemGray4Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -67,17 +46,46 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
-                            <constraint firstItem="2jD-mT-p93" firstAttribute="top" secondItem="GFV-DK-2RH" secondAttribute="bottom" constant="150" id="Axx-WM-b3G"/>
-                            <constraint firstItem="QY1-gD-KCm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cra-Sm-scx"/>
-                            <constraint firstItem="wx0-11-CM7" firstAttribute="top" secondItem="HST-VF-BtS" secondAttribute="bottom" constant="10" id="E9g-mk-Ezj"/>
-                            <constraint firstItem="GFV-DK-2RH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="P4h-34-QdP"/>
-                            <constraint firstItem="GFV-DK-2RH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKu-Vp-Upc"/>
-                            <constraint firstItem="HST-VF-BtS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cFo-YN-cZa"/>
-                            <constraint firstItem="2jD-mT-p93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fsP-oL-CFc"/>
-                            <constraint firstItem="wx0-11-CM7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNa-KF-U5x"/>
-                            <constraint firstItem="HST-VF-BtS" firstAttribute="top" secondItem="2jD-mT-p93" secondAttribute="bottom" constant="10" id="pZH-TM-le6"/>
-                            <constraint firstItem="QY1-gD-KCm" firstAttribute="top" secondItem="wx0-11-CM7" secondAttribute="bottom" constant="10" id="vbB-Dv-TU8"/>
+                            <constraint firstItem="NBz-by-5lP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1df-ee-Nrg"/>
+                            <constraint firstItem="QY1-gD-KCm" firstAttribute="top" secondItem="HST-VF-BtS" secondAttribute="bottom" id="5m5-PA-zgj"/>
+                            <constraint firstItem="QY1-gD-KCm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CY7-fk-Jc1"/>
+                            <constraint firstItem="HST-VF-BtS" firstAttribute="top" secondItem="GFV-DK-2RH" secondAttribute="bottom" constant="60" id="FO6-FT-2FK"/>
+                            <constraint firstItem="NBz-by-5lP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G23-pz-fHu"/>
+                            <constraint firstItem="GFV-DK-2RH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="H9m-hZ-A8t"/>
+                            <constraint firstItem="NBz-by-5lP" firstAttribute="top" secondItem="QY1-gD-KCm" secondAttribute="bottom" constant="10" id="IOm-IE-qLU"/>
+                            <constraint firstItem="GFV-DK-2RH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="240" id="Lnr-TD-Mg5"/>
+                            <constraint firstItem="GFV-DK-2RH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P0l-73-aqi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HST-VF-BtS" secondAttribute="trailing" constant="20" id="TkU-o6-bFx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NBz-by-5lP" secondAttribute="trailing" constant="20" id="ez4-Hl-Qdx"/>
+                            <constraint firstItem="HST-VF-BtS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jw3-0P-FoB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QY1-gD-KCm" secondAttribute="trailing" constant="20" id="stt-gC-rej"/>
+                            <constraint firstItem="QY1-gD-KCm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tn6-T5-5QS"/>
+                            <constraint firstItem="HST-VF-BtS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="va1-9Y-SSE"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="H9m-hZ-A8t"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="TkU-o6-bFx"/>
+                                <include reference="ez4-Hl-Qdx"/>
+                                <include reference="stt-gC-rej"/>
+                                <include reference="H9m-hZ-A8t"/>
+                                <exclude reference="Lnr-TD-Mg5"/>
+                                <include reference="P0l-73-aqi"/>
+                                <include reference="FO6-FT-2FK"/>
+                                <include reference="jw3-0P-FoB"/>
+                                <include reference="va1-9Y-SSE"/>
+                                <include reference="5m5-PA-zgj"/>
+                                <include reference="CY7-fk-Jc1"/>
+                                <include reference="tn6-T5-5QS"/>
+                                <include reference="1df-ee-Nrg"/>
+                                <include reference="G23-pz-fHu"/>
+                                <include reference="IOm-IE-qLU"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
